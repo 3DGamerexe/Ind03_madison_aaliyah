@@ -42,12 +42,12 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 21
+        return 50
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let navigationController = segue.destination as? UINavigationController, let viewController = navigationController.viewControllers.first as? ViewController {
-            
+            viewController.stateFlag.image = stateInformation[0].flag
         }
     }
     

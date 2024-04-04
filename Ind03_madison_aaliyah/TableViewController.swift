@@ -8,6 +8,17 @@
 import UIKit
 
 class TableViewController: UITableViewController {
+    
+    struct stateInfo {
+        var flag: UIImage
+        var name: String
+        var map: UIImage
+        var area: String
+    }
+    
+    private var stateInformation: [stateInfo] = [
+        stateInfo(flag: UIImage(named: "Alabama")!, name: "Alabama", map: UIImage(named: "ALflag")!, area: "50,744")
+    ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,12 +42,23 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 15
+        return 21
     }
     
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let navigationController = segue.destination as? UINavigationController, let viewController = navigationController.viewControllers.first as? ViewController {
+            
+        }
     }
+    
+    
+//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let selectedCell = tableView.cellForRow(at: indexPath)
+//        
+//        if let cellIdentifier = selectedCell?.reuseIdentifier {
+//            
+//        }
+//    }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

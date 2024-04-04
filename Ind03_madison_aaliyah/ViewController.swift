@@ -22,5 +22,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var stateArea: UILabel!
     
+    
+    
 }
 

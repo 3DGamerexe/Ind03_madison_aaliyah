@@ -16,6 +16,7 @@
 		94C665EE2BBF14E70076DFF2 /* Ind03_madison_aaliyahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C665ED2BBF14E70076DFF2 /* Ind03_madison_aaliyahTests.swift */; };
 		94C665F82BBF14E70076DFF2 /* Ind03_madison_aaliyahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C665F72BBF14E70076DFF2 /* Ind03_madison_aaliyahUITests.swift */; };
 		94C665FA2BBF14E70076DFF2 /* Ind03_madison_aaliyahUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C665F92BBF14E70076DFF2 /* Ind03_madison_aaliyahUITestsLaunchTests.swift */; };
+		94C666072BBF15790076DFF2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C666062BBF15790076DFF2 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		94C665F32BBF14E70076DFF2 /* Ind03_madison_aaliyahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ind03_madison_aaliyahUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C665F72BBF14E70076DFF2 /* Ind03_madison_aaliyahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind03_madison_aaliyahUITests.swift; sourceTree = "<group>"; };
 		94C665F92BBF14E70076DFF2 /* Ind03_madison_aaliyahUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind03_madison_aaliyahUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94C666062BBF15790076DFF2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				94C665D82BBF14E60076DFF2 /* SceneDelegate.swift */,
 				94C665DA2BBF14E60076DFF2 /* ViewController.swift */,
 				94C665DC2BBF14E60076DFF2 /* Main.storyboard */,
+				94C666062BBF15790076DFF2 /* TableViewController.swift */,
 				94C665DF2BBF14E70076DFF2 /* Assets.xcassets */,
 				94C665E12BBF14E70076DFF2 /* LaunchScreen.storyboard */,
 				94C665E42BBF14E70076DFF2 /* Info.plist */,
@@ -261,6 +264,7 @@
 				94C665DB2BBF14E60076DFF2 /* ViewController.swift in Sources */,
 				94C665D72BBF14E60076DFF2 /* AppDelegate.swift in Sources */,
 				94C665D92BBF14E60076DFF2 /* SceneDelegate.swift in Sources */,
+				94C666072BBF15790076DFF2 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

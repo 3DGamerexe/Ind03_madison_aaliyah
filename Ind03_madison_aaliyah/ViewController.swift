@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         
     }
 
-
+    @IBOutlet weak var stateFlag: UIImageView!
+    
+    @IBOutlet weak var stateName: UILabel!
+    
+    @IBOutlet weak var stateMap: UIImageView!
+    
+    @IBOutlet weak var stateArea: UILabel!
+    
 }
 

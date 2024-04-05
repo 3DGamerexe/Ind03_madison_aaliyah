@@ -17,7 +17,8 @@ struct State {
 }
 
 let stateInfo: [State] = [
-    State(flag: UIImage(named: "ALflag")!, name: "Alabama", map: UIImage(named: "Alabama")!, area: "50,744")
+    State(flag: UIImage(named: "ALflag")!, name: "Alabama", map: UIImage(named: "Alabama")!, area: "50,744"),
+    State(flag: UIImage(named: "AKflag")!, name: "Alaska", map: UIImage(named: "AK")!, area: "663,267")
     
 ]
 

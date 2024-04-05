@@ -52,7 +52,19 @@ let stateInfo: [State] = [
     State(flag: UIImage(named: "NDflag")!, name: "North Dakota", map: UIImage(named: "ND")!, area: "68,994"),
     State(flag: UIImage(named: "OHflag")!, name: "Ohio", map: UIImage(named: "OH")!, area: "40,953"),
     State(flag: UIImage(named: "OKflag")!, name: "Oklahoma", map: UIImage(named: "OK")!, area: "68,679"),
-    State(flag: UIImage(named: "ORflag")!, name: "Oregon", map: UIImage(named: "OR")!, area: "96,003")
-
+    State(flag: UIImage(named: "ORflag")!, name: "Oregon", map: UIImage(named: "OR")!, area: "96,003"),
+    State(flag: UIImage(named: "PAflag")!, name: "Pennsylvania", map: UIImage(named: "PA")!, area: "44,820"),
+    State(flag: UIImage(named: "RIflag")!, name: "Rhode Island", map: UIImage(named: "RI")!, area: "1,034"),
+    State(flag: UIImage(named: "SCflag")!, name: "South Carolina", map: UIImage(named: "SC")!, area: "30,111"),
+    State(flag: UIImage(named: "SDflag")!, name: "South Dakota", map: UIImage(named: "SD")!, area: "75,898"),
+    State(flag: UIImage(named: "TNflag")!, name: "Tennessee", map: UIImage(named: "TN")!, area: "41,220"),
+    State(flag: UIImage(named: "TXflag")!, name: "Texas", map: UIImage(named: "TX")!, area: "261,914"),
+    State(flag: UIImage(named: "UTflag")!, name: "Utah", map: UIImage(named: "UT")!, area: "82,168"),
+    State(flag: UIImage(named: "VTflag")!, name: "Vermont", map: UIImage(named: "VT")!, area: "9,249"),
+    State(flag: UIImage(named: "VAflag")!, name: "Virginia", map: UIImage(named: "VA")!, area: "39,598"),
+    State(flag: UIImage(named: "WAflag")!, name: "Washington", map: UIImage(named: "WA")!, area: "66,582"),
+    State(flag: UIImage(named: "WVflag")!, name: "West Virginia", map: UIImage(named: "WV")!, area: "24,087"),
+    State(flag: UIImage(named: "WIflag")!, name: "Wisconsin", map: UIImage(named: "WI")!, area: "54,314"),
+    State(flag: UIImage(named: "WYflag")!, name: "Wyoming", map: UIImage(named: "WY")!, area: "97,105"),
 ]
 

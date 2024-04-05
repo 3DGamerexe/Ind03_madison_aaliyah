@@ -1,11 +1,11 @@
 {
   "images" : [
     {
+      "filename" : "CAflag.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "AK.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

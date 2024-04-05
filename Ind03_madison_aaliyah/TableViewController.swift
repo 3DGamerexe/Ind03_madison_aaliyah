@@ -8,17 +8,6 @@
 import UIKit
 
 class TableViewController: UITableViewController {
-    
-    struct stateInfo {
-        var flag: UIImage
-        var name: String
-        var map: UIImage
-        var area: String
-    }
-    
-    private var stateInformation: [stateInfo] = [
-        stateInfo(flag: UIImage(named: "Alabama")!, name: "Alabama", map: UIImage(named: "ALflag")!, area: "50,744")
-    ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,9 +34,27 @@ class TableViewController: UITableViewController {
         return 50
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedState = stateInfo[indexPath.row]
+        performSegue(withIdentifier: "showStateDetails", sender: selectedState)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let navigationController = segue.destination as? UINavigationController, let viewController = navigationController.viewControllers.first as? ViewController {
-            viewController.stateFlag.image = stateInformation[0].flag
+//        if let navigationController = segue.destination as? UINavigationController, let viewController = navigationController.viewControllers.first as? ViewController {
+//            viewController.stateFlag.image = stateInformation[0].flag
+//            viewController.stateName.text = stateInformation[0].name
+//            viewController.stateMap.image = stateInformation[0].map
+//            viewController.stateArea.text = stateInformation[0].area
+//        }
+        if segue.identifier == "showStateDetails",
+           let destinationVC = segue.destination as? ViewController,
+           let seletedState = sender as? State {
+            destinationVC.state = seletedState
+            //destinationVC.state
+//            destinationVC.stateFlag.image = stateInformation[0].flag
+//            destinationVC.stateName.text = stateInformation[0].name
+//            destinationVC.stateMap.image = stateInformation[0].map
+//            destinationVC.stateArea.text = stateInformation[0].area
         }
     }
     

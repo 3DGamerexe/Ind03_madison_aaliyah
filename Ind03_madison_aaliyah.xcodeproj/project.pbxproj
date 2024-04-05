@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94493AD42BBF7C8D00DCF6A8 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94493AD32BBF7C8D00DCF6A8 /* State.swift */; };
 		94C665D72BBF14E60076DFF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C665D62BBF14E60076DFF2 /* AppDelegate.swift */; };
 		94C665D92BBF14E60076DFF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C665D82BBF14E60076DFF2 /* SceneDelegate.swift */; };
 		94C665DB2BBF14E60076DFF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C665DA2BBF14E60076DFF2 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94493AD32BBF7C8D00DCF6A8 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		94C665D32BBF14E60076DFF2 /* Ind03_madison_aaliyah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ind03_madison_aaliyah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C665D62BBF14E60076DFF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94C665D82BBF14E60076DFF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,9 +105,10 @@
 			children = (
 				94C665D62BBF14E60076DFF2 /* AppDelegate.swift */,
 				94C665D82BBF14E60076DFF2 /* SceneDelegate.swift */,
-				94C665DA2BBF14E60076DFF2 /* ViewController.swift */,
-				94C665DC2BBF14E60076DFF2 /* Main.storyboard */,
 				94C666062BBF15790076DFF2 /* TableViewController.swift */,
+				94C665DA2BBF14E60076DFF2 /* ViewController.swift */,
+				94493AD32BBF7C8D00DCF6A8 /* State.swift */,
+				94C665DC2BBF14E60076DFF2 /* Main.storyboard */,
 				94C665DF2BBF14E70076DFF2 /* Assets.xcassets */,
 				94C665E12BBF14E70076DFF2 /* LaunchScreen.storyboard */,
 				94C665E42BBF14E70076DFF2 /* Info.plist */,
@@ -264,6 +267,7 @@
 				94C665DB2BBF14E60076DFF2 /* ViewController.swift in Sources */,
 				94C665D72BBF14E60076DFF2 /* AppDelegate.swift in Sources */,
 				94C665D92BBF14E60076DFF2 /* SceneDelegate.swift in Sources */,
+				94493AD42BBF7C8D00DCF6A8 /* State.swift in Sources */,
 				94C666072BBF15790076DFF2 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
